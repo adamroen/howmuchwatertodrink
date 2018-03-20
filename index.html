@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How Much Water Should I Drink?</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet">
+
+	
+</head>
+<body>
+
+	<h1>How Much Water Should I Drink? </h1>
+
+	<div>
+		<p>Water is something that is important to every living creature. It's nearly impossible to drink too much, but extremely easy to not drink enough. With that said, please use this calculator to see how much you should be drinking.</p>
+	</div>
+
+	<form id="form" name="form">
+		<label for="weight">Please enter your weight in pounds: </label>
+    	<input type="number" id="weight" name="weight" placeholder="150 lbs" onkeyup="waterCalc()">
+    	<input type="button" name="weight" value="Calculate" onclick="waterCalc()">
+
+    	<br>
+
+    	<p id="result">You should be drinking: ___ ounces of water per day</p>
+    </form>
+
+    <p class="me">Designed and Created by Adam Roen</p>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
